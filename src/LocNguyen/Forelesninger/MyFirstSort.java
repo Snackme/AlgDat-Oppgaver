@@ -1,3 +1,5 @@
+package LocNguyen.Forelesninger;
+
 /**
  * Windows: [alt] + [enter] mens du holder på klassen for å lage tester
  * Mac: [option] + [enter] --"--
@@ -112,7 +114,7 @@ public class MyFirstSort {
             //Sjekk om vi har funnet nytt største tall
             if (values[i] > max_value) {
                 max_value = values[i];
-                index = i;
+                max_value = i;
             }
             else if (values[i] > nest_max_value){
                 nest_max_value = values[i];
@@ -123,7 +125,7 @@ public class MyFirstSort {
             }
         }
 
-        return index;
+        return index_nestmax;
     }
 
 

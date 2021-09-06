@@ -1,3 +1,7 @@
+package LocNguyen.Forelesninger;
+
+import LocNguyen.Forelesninger.MyFirstSort;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MyFirstSortTest {
